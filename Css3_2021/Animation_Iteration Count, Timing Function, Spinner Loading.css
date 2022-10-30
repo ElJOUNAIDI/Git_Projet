@@ -1,0 +1,26 @@
+div
+{
+    margin: 20px auto;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    background-color: gray;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 20px red solid;
+    border-left-color:transparent ;
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes spin{
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate: 160deg;
+    }
+}
